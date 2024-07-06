@@ -1,0 +1,83 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+select,
+textarea {
+    background-color: transparent;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    font-family: "Outfit", sans-serif;
+}
+
+.background {
+    background-color: #D5E1EF;
+    padding: 152px 0;
+}
+
+.box {
+    width: 320px;
+    height: 497px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+    padding: 16px 16px 0 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.box-img {
+    background-color: #2C7DFA;
+    width: 288px;
+    height: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box-header {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1F314F;
+    line-height: auto;
+}
+
+.box-desc {
+    font-size: 15px;
+    color: #7D889E;
+    padding: 16px 16px 0 16px;
+}
