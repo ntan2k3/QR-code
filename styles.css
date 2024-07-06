@@ -43,6 +43,7 @@ body {
 .background {
     background-color: #D5E1EF;
     padding: 152px 0;
+    height: 100vh;
 }
 
 .box {
